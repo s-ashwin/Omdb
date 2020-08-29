@@ -11,3 +11,16 @@ html,body{
 .navbar{
   background-color: #242424;
 }
+.profile{
+  color: white!important;
+}
+.adinfo div b{
+  color: white!important;
+}
+.adinfo div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-secondary{
+  background-color: #242424!important;
+}

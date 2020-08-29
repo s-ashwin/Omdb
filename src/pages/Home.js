@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Container, InputGroupAddon, InputGroup, Input, Button } from "reactstrap";
 import { FaSistrix } from "react-icons/fa";
 import Axios from "axios";
+import InfoCard from "../Components/InfoCard";
 
 
 
@@ -32,6 +33,8 @@ const Home = () => {
                     <Button onClick={fetchdetail}><FaSistrix></FaSistrix></Button>
                 </InputGroupAddon>
         </InputGroup>
+
+        {res.Title?(<InfoCard data={res}></InfoCard>):(null)}
  
         </Container>
         </div>
