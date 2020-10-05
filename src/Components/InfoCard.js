@@ -7,7 +7,7 @@ const InfoCard = ({data}) => {
             <Row>
                 <Col md="4">
                 <div className="image text-center">
-                    <img className="img" src={data.Poster} alt={data.Poster}></img>
+                    <img className="img img-fluid" src={data.Poster} alt={data.Poster}></img>
                 </div>
                 <div className="info my-3 text-center">
                     <div ><b>{data.Title}</b></div>
